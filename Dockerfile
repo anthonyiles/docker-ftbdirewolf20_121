@@ -17,8 +17,8 @@ WORKDIR /data
 
 EXPOSE 25565/tcp
 
-ENV MOTD "FTB Presents Direwolf20 1.21 v1.2.1 Server Powered by Docker"
-ENV LEVEL world
-ENV JVM_OPTS "-Xms6144m -Xmx8192m"
+ENV MOTD="FTB Presents Direwolf20 1.21 v1.2.1 Server Powered by Docker"
+ENV LEVEL="world"
+ENV JVM_OPTS="-Xms6144m -Xmx8192m"
 
 CMD ["/launch.sh"]
